@@ -5,7 +5,7 @@ plugins {
     application
 }
 
-group = "br.com.vendas"
+group = "br.com.kotlin"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -13,6 +13,7 @@ repositories {
 }
 
 dependencies {
+    runtimeOnly("org.jetbrains.kotlin:kotlin-reflect:1.7.0")
     testImplementation(kotlin("test"))
 }
 
