@@ -5,7 +5,7 @@ import recursosavancados.operatoroverloading.Coordinates
 fun main(){
 
     showComponents()
-    
+
 
     val c1 = Coordinates(200, 100)
     val c2 = Coordinates(1000, 2000)
